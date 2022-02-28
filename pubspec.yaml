@@ -1,0 +1,95 @@
+# Filename: c:\Users\quaby\Documents\GitHub\annan-bmi-calculator\mobile\pubspec.yaml
+# Path: c:\Users\quaby\Documents\GitHub\annan-bmi-calculator\mobile
+# Created Date: Tuesday, May 25th 2021, 4:21:02 pm
+# Author: Dennis Bilson
+#
+# Copyright (c) 2021 Quabynah Codelabs LLC
+
+name: mobile
+description: BeaFit mobile application
+
+publish_to: "none"
+
+version: 0.0.18+18
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # bloc
+  bloc: ^7.0.0
+  # image caching
+  cached_network_image: ^3.0.0
+  # carousel
+  carousel_slider: ^4.0.0-nullsafety.0
+  # ios icons
+  cupertino_icons: ^1.0.2
+  # object comparison
+  equatable: ^2.0.2
+  # charts
+  fl_chart: ^0.36.1
+  # flutter bloc widgets
+  flutter_bloc: ^7.0.0
+  # icons
+  fluttericon: ^2.0.0
+  # dependency injection
+  flutter_riverpod: ^0.14.0+3
+  # platform share
+  flutter_share: ^2.0.0
+  # animate lists
+  flutter_staggered_animations: ^1.0.0
+  # staggered grid
+  flutter_staggered_grid_view: ^0.4.0
+  # typeface
+  google_fonts: ^2.1.0
+  # time formatting
+  jiffy: ^4.1.0
+  # model serialization
+  json_annotation: ^4.0.1
+  # animations
+  lottie: ^1.0.1
+  # no-sql local database
+  sembast: ^3.0.2
+  # key-value pair persistent storage
+  shared_preferences: ^2.0.6
+  # share content with other applications
+  share: ^2.0.4
+  # unique id generator
+  uuid: ^3.0.4
+  # youtube video player
+  # youtube_player_flutter: ^8.0.0
+  youtube_player_iframe: ^2.0.0
+  # in-house util for UI
+  shared_utils:
+    git:
+      url: git://github.com/quabynah-bilson/shared_utils.git
+      ref: main
+  # url handler
+  url_launcher: ^6.0.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # generator for routes
+  auto_route_generator: ^2.1.0
+  # required by generators
+  build_runner: ^2.0.4
+  # icon generator
+  flutter_launcher_icons: ^0.9.0
+  # serialization generator
+  json_serializable: ^4.1.2
+
+# flutter pub run flutter_launcher_icons:main
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/male/
+    - assets/female/

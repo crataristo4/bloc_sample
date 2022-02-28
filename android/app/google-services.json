@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "237763682847",
+    "project_id": "annan-bmi",
+    "storage_bucket": "annan-bmi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237763682847:android:f1497c4f0eb2ba4bec6b2a",
+        "android_client_info": {
+          "package_name": "dev.bmi.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237763682847-atd7usob75soptcdm781khin8vgfe7r0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu6sq1FYFW1j_ns9rXoe3Q3ZIMubElhz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237763682847-atd7usob75soptcdm781khin8vgfe7r0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
